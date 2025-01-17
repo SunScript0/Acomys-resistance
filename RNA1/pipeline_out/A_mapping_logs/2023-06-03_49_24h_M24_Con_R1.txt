@@ -1,0 +1,35 @@
+File: /scratch/fmorandi/internal/Fathima/00_fastq_mus/49_24h_M24_Con_R1.fastq.gz
+Name: 49_24h_M24_Con_R1
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Hisat2_with_SJs/GRCm39
+Sat Jun  3 05:27:43 EDT 2023
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16968639
+Started analysis of 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 5% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 10% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 15% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 20% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 25% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 30% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 35% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 40% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 45% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 50% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 55% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 60% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 65% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 70% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 75% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 80% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 85% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 90% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Approx 95% complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Analysis complete for 49_24h_M24_Con_R1_trimmed.fq.gz
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+38963333 reads; of these:
+  38963333 (100.00%) were unpaired; of these:
+    430963 (1.11%) aligned 0 times
+    35652719 (91.50%) aligned exactly 1 time
+    2879651 (7.39%) aligned >1 times
+98.89% overall alignment rate
+[bam_sort_core] merging from 14 files and 1 in-memory blocks...
+Sat Jun  3 05:48:26 EDT 2023

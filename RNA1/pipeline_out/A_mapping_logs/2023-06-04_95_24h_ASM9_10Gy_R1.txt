@@ -1,0 +1,256 @@
+File: /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz
+Name: 95_24h_ASM9_10Gy_R1
+Genome: /scratch/fmorandi/external/references/AcoRus/Hisat2_with_SJs/AcoRus
+Sun Jun  4 04:15:47 EDT 2023
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16969868
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16969868
+Started analysis of 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 5% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 10% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 15% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 20% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 25% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 30% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 35% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 40% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 45% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 50% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 55% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 60% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 65% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 70% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 75% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 80% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 85% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 90% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Approx 95% complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+Analysis complete for 95_24h_ASM9_10Gy_R1.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Fathima/02_trimmed_fastq/
+Using user-specified basename (>>95_24h_ASM9_10Gy_R1<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	25806	AGATCGGAAGAGC	1000000	2.58
+smallRNA	6	TGGAATTCTCGG	1000000	0.00
+Nextera	0	CTGTCTCTTATA	1000000	0.00
+Using Illumina adapter for trimming (count: 25806). Second best hit was smallRNA (count: 6)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Fathima/02_trimmed_fastq/95_24h_ASM9_10Gy_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1416.08 s (26 us/read; 2.29 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              54,084,023
+Reads with adapters:                19,680,818 (36.4%)
+Reads written (passing filters):    54,084,023 (100.0%)
+
+Total basepairs processed: 5,408,402,300 bp
+Quality-trimmed:               2,179,326 bp (0.0%)
+Total written (filtered):  5,338,147,820 bp (98.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 19680818 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 23.3%
+  C: 35.8%
+  G: 25.0%
+  T: 15.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	11104098	13521005.8	0	11104098
+2	3912422	3380251.4	0	3912422
+3	1202992	845062.9	0	1202992
+4	419360	211265.7	0	419360
+5	274113	52816.4	0	274113
+6	220420	13204.1	0	220420
+7	202921	3301.0	0	202921
+8	193398	825.3	0	193398
+9	183802	206.3	0	182430 1372
+10	176073	51.6	1	166562 9511
+11	165136	12.9	1	156234 8902
+12	155284	3.2	1	147845 7439
+13	142128	0.8	1	134995 7133
+14	132695	0.8	1	125770 6925
+15	122816	0.8	1	116599 6217
+16	111759	0.8	1	105821 5938
+17	101861	0.8	1	96543 5318
+18	92268	0.8	1	87640 4628
+19	81578	0.8	1	77448 4130
+20	75285	0.8	1	71507 3778
+21	67642	0.8	1	64212 3430
+22	60874	0.8	1	57816 3058
+23	55840	0.8	1	52899 2941
+24	51363	0.8	1	48451 2912
+25	44508	0.8	1	42147 2361
+26	39162	0.8	1	37259 1903
+27	35385	0.8	1	33673 1712
+28	31123	0.8	1	29428 1695
+29	28133	0.8	1	26522 1611
+30	24154	0.8	1	22923 1231
+31	20606	0.8	1	19581 1025
+32	18731	0.8	1	17844 887
+33	16956	0.8	1	16077 879
+34	14229	0.8	1	13518 711
+35	13093	0.8	1	12383 710
+36	11342	0.8	1	10786 556
+37	9738	0.8	1	9228 510
+38	8538	0.8	1	8064 474
+39	7629	0.8	1	7236 393
+40	6550	0.8	1	6143 407
+41	5720	0.8	1	5419 301
+42	5090	0.8	1	4846 244
+43	4430	0.8	1	4190 240
+44	3760	0.8	1	3531 229
+45	6320	0.8	1	6034 286
+46	750	0.8	1	682 68
+47	1913	0.8	1	1781 132
+48	6516	0.8	1	6224 292
+49	1020	0.8	1	940 80
+50	261	0.8	1	228 33
+51	1999	0.8	1	1895 104
+52	905	0.8	1	838 67
+53	162	0.8	1	135 27
+54	845	0.8	1	794 51
+55	1284	0.8	1	1225 59
+56	236	0.8	1	202 34
+57	188	0.8	1	148 40
+58	79	0.8	1	49 30
+59	405	0.8	1	365 40
+60	56	0.8	1	31 25
+61	61	0.8	1	41 20
+62	350	0.8	1	308 42
+63	90	0.8	1	54 36
+64	60	0.8	1	28 32
+65	140	0.8	1	67 73
+66	189	0.8	1	158 31
+67	36	0.8	1	4 32
+68	71	0.8	1	34 37
+69	47	0.8	1	28 19
+70	53	0.8	1	22 31
+71	23	0.8	1	0 23
+72	47	0.8	1	6 41
+73	23	0.8	1	11 12
+74	41	0.8	1	13 28
+75	29	0.8	1	12 17
+76	31	0.8	1	6 25
+77	43	0.8	1	11 32
+78	20	0.8	1	8 12
+79	41	0.8	1	12 29
+80	28	0.8	1	4 24
+81	28	0.8	1	3 25
+82	45	0.8	1	10 35
+83	14	0.8	1	5 9
+84	22	0.8	1	5 17
+85	23	0.8	1	7 16
+86	46	0.8	1	8 38
+87	31	0.8	1	3 28
+88	29	0.8	1	2 27
+89	17	0.8	1	5 12
+90	31	0.8	1	1 30
+91	63	0.8	1	8 55
+92	25	0.8	1	3 22
+93	33	0.8	1	10 23
+94	13	0.8	1	2 11
+95	33	0.8	1	5 28
+96	57	0.8	1	1 56
+97	53	0.8	1	19 34
+98	39	0.8	1	4 35
+99	10	0.8	1	0 10
+100	839	0.8	1	5 834
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Fathima/00_fastq_aco/95_24h_ASM9_10Gy_R1.fastq.gz
+=============================================
+54084023 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	1515 (0.0%)
+
+Now renaming the output file 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+
+ORIGINAL FILE 1: >>95_24h_ASM9_10Gy_R1_trimmed.fq.gz<<	RENAMING TO:>>95_24h_ASM9_10Gy_R1_trimmed.fq.gz<<
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16969868
+Started analysis of 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 5% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 10% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 15% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 20% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 25% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 30% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 35% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 40% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 45% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 50% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 55% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 60% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 65% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 70% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 75% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 80% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 85% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 90% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Approx 95% complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Analysis complete for 95_24h_ASM9_10Gy_R1_trimmed.fq.gz
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+54082508 reads; of these:
+  54082508 (100.00%) were unpaired; of these:
+    14515129 (26.84%) aligned 0 times
+    37977079 (70.22%) aligned exactly 1 time
+    1590300 (2.94%) aligned >1 times
+73.16% overall alignment rate
+[bam_sort_core] merging from 20 files and 1 in-memory blocks...
+Sun Jun  4 05:29:07 EDT 2023

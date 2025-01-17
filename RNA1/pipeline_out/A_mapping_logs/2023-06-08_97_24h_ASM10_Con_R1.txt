@@ -1,0 +1,14 @@
+File: /scratch/fmorandi/internal/Fathima/00_fastq_aco/97_24h_ASM10_Con_R1.fastq.gz
+Name: 97_24h_ASM10_Con_R1
+Genome: /scratch/fmorandi/external/references/AcoCah2/Hisat2_with_SJs/AcoCah
+Thu Jun  8 03:37:14 EDT 2023
+(ERR): hisat2-align died with signal 13 (PIPE) 
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+46129944 reads; of these:
+  46129944 (100.00%) were unpaired; of these:
+    599426 (1.30%) aligned 0 times
+    43371381 (94.02%) aligned exactly 1 time
+    2159137 (4.68%) aligned >1 times
+98.70% overall alignment rate
+[bam_sort_core] merging from 17 files and 1 in-memory blocks...
+Thu Jun  8 03:55:42 EDT 2023

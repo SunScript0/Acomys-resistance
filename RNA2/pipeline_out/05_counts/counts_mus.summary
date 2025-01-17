@@ -1,0 +1,15 @@
+Status	./04_mapped/1_AC_M1.bam	./04_mapped/2_AC_M2_1.bam	./04_mapped/3_AC_M3.bam	./04_mapped/4_AC_M4.bam	./04_mapped/5_DT_M1.bam	./04_mapped/6_DT_M2.bam	./04_mapped/7_DT_M3.bam	./04_mapped/8_DT_M4.bam
+Assigned	23513181	19608787	25420752	20825718	20987750	24716585	30198281	28628017
+Unassigned_Unmapped	3220387	2002312	3780090	3545786	3497932	4238234	6613976	6792321
+Unassigned_Read_Type	0	0	0	0	0	0	0	0
+Unassigned_Singleton	1309508	1655324	1684764	1444423	1245297	1304096	2210188	1585421
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	2828553	1634679	3120272	2506203	1558903	2252096	2937454	2624028
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	8208617	17265338	10847437	8403695	3658795	4619242	6887169	6039587
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	1345124	999363	1461707	1230493	1078249	1389382	1787101	1616034

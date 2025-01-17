@@ -1,0 +1,99 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                                                                            ||
+||                           1_AC_M1.bam                                      ||
+||                           2_AC_M2_1.bam                                    ||
+||                           3_AC_M3.bam                                      ||
+||                           4_AC_M4.bam                                      ||
+||                           5_DT_M1.bam                                      ||
+||                           6_DT_M2.bam                                      ||
+||                           7_DT_M3.bam                                      ||
+||                           8_DT_M4.bam                                      ||
+||                                                                            ||
+||             Output file : counts_mus                                       ||
+||                 Summary : counts_mus.summary                               ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : Mus_musculus.GRCm39.108.gtf (GTF)                ||
+||      Dir for temp files : .                                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.108.gtf ...                       ||
+||    Features : 868961                                                       ||
+||    Meta-features : 56980                                                   ||
+||    Chromosomes/contigs : 39                                                ||
+||                                                                            ||
+|| Process BAM file 1_AC_M1.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 40425370                                             ||
+||    Successfully assigned alignments : 23513181 (58.2%)                     ||
+||    Running time : 0.71 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 2_AC_M2_1.bam...                                          ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 43165803                                             ||
+||    Successfully assigned alignments : 19608787 (45.4%)                     ||
+||    Running time : 0.70 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 3_AC_M3.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 46315022                                             ||
+||    Successfully assigned alignments : 25420752 (54.9%)                     ||
+||    Running time : 0.82 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 4_AC_M4.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37956318                                             ||
+||    Successfully assigned alignments : 20825718 (54.9%)                     ||
+||    Running time : 0.65 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 5_DT_M1.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32026926                                             ||
+||    Successfully assigned alignments : 20987750 (65.5%)                     ||
+||    Running time : 0.52 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 6_DT_M2.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38519635                                             ||
+||    Successfully assigned alignments : 24716585 (64.2%)                     ||
+||    Running time : 0.65 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 7_DT_M3.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 50634169                                             ||
+||    Successfully assigned alignments : 30198281 (59.6%)                     ||
+||    Running time : 0.89 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 8_DT_M4.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 47285408                                             ||
+||    Successfully assigned alignments : 28628017 (60.5%)                     ||
+||    Running time : 0.83 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "./counts_mus.summary"    ||
+||                                                                            ||
+\\============================================================================//
+

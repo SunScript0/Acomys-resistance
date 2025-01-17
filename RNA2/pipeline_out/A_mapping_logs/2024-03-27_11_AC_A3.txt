@@ -1,0 +1,587 @@
+R1: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz
+R2: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R2.fastq.gz
+Name: 11_AC_A3
+Genome: /scratch/fmorandi/external/references/AcoCah2/Hisat2_with_SJs/AcoCah
+Wed Mar 27 18:10:13 EDT 2024
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/24116806
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/24116806
+Started analysis of 11_AC_A3_R1.fastq.gz
+Approx 5% complete for 11_AC_A3_R1.fastq.gz
+Approx 10% complete for 11_AC_A3_R1.fastq.gz
+Approx 15% complete for 11_AC_A3_R1.fastq.gz
+Approx 20% complete for 11_AC_A3_R1.fastq.gz
+Approx 25% complete for 11_AC_A3_R1.fastq.gz
+Approx 30% complete for 11_AC_A3_R1.fastq.gz
+Approx 35% complete for 11_AC_A3_R1.fastq.gz
+Approx 40% complete for 11_AC_A3_R1.fastq.gz
+Approx 45% complete for 11_AC_A3_R1.fastq.gz
+Approx 50% complete for 11_AC_A3_R1.fastq.gz
+Approx 55% complete for 11_AC_A3_R1.fastq.gz
+Approx 60% complete for 11_AC_A3_R1.fastq.gz
+Approx 65% complete for 11_AC_A3_R1.fastq.gz
+Approx 70% complete for 11_AC_A3_R1.fastq.gz
+Approx 75% complete for 11_AC_A3_R1.fastq.gz
+Approx 80% complete for 11_AC_A3_R1.fastq.gz
+Approx 85% complete for 11_AC_A3_R1.fastq.gz
+Approx 90% complete for 11_AC_A3_R1.fastq.gz
+Approx 95% complete for 11_AC_A3_R1.fastq.gz
+Analysis complete for 11_AC_A3_R1.fastq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/24116806
+Started analysis of 11_AC_A3_R2.fastq.gz
+Approx 5% complete for 11_AC_A3_R2.fastq.gz
+Approx 10% complete for 11_AC_A3_R2.fastq.gz
+Approx 15% complete for 11_AC_A3_R2.fastq.gz
+Approx 20% complete for 11_AC_A3_R2.fastq.gz
+Approx 25% complete for 11_AC_A3_R2.fastq.gz
+Approx 30% complete for 11_AC_A3_R2.fastq.gz
+Approx 35% complete for 11_AC_A3_R2.fastq.gz
+Approx 40% complete for 11_AC_A3_R2.fastq.gz
+Approx 45% complete for 11_AC_A3_R2.fastq.gz
+Approx 50% complete for 11_AC_A3_R2.fastq.gz
+Approx 55% complete for 11_AC_A3_R2.fastq.gz
+Approx 60% complete for 11_AC_A3_R2.fastq.gz
+Approx 65% complete for 11_AC_A3_R2.fastq.gz
+Approx 70% complete for 11_AC_A3_R2.fastq.gz
+Approx 75% complete for 11_AC_A3_R2.fastq.gz
+Approx 80% complete for 11_AC_A3_R2.fastq.gz
+Approx 85% complete for 11_AC_A3_R2.fastq.gz
+Approx 90% complete for 11_AC_A3_R2.fastq.gz
+Approx 95% complete for 11_AC_A3_R2.fastq.gz
+Analysis complete for 11_AC_A3_R2.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Fathima/RNA2/02_trimmed_fastq/
+Using user-specified basename (>>11_AC_A3<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	279997	CTGTCTCTTATA	1000000	28.00
+smallRNA	6	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 279997). Second best hit was smallRNA (count: 6)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Fathima/RNA2/02_trimmed_fastq/11_AC_A3_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to 11_AC_A3_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1983.52 s (42 us/read; 1.43 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              47,401,007
+Reads with adapters:                28,318,849 (59.7%)
+Reads written (passing filters):    47,401,007 (100.0%)
+
+Total basepairs processed: 7,062,750,043 bp
+Quality-trimmed:              19,983,947 bp (0.3%)
+Total written (filtered):  6,531,697,801 bp (92.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 28318849 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 68.3%
+  C: 12.1%
+  G: 10.0%
+  T: 9.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8630467	11850251.8	0	8630467
+2	2388096	2962562.9	0	2388096
+3	995179	740640.7	0	995179
+4	428547	185160.2	0	428547
+5	334578	46290.0	0	334578
+6	311246	11572.5	0	311246
+7	310043	2893.1	0	310043
+8	309839	723.3	0	309839
+9	302812	180.8	0	301646 1166
+10	324444	45.2	1	312147 12297
+11	318435	11.3	1	308693 9742
+12	332498	2.8	1	319168 13330
+13	311126	2.8	1	301363 9763
+14	329677	2.8	1	316795 12882
+15	315372	2.8	1	304389 10983
+16	371357	2.8	1	354565 16792
+17	274459	2.8	1	266625 7834
+18	317647	2.8	1	306538 11109
+19	312096	2.8	1	302544 9552
+20	326796	2.8	1	315339 11457
+21	321854	2.8	1	310100 11754
+22	305054	2.8	1	296577 8477
+23	333990	2.8	1	320237 13753
+24	300260	2.8	1	291689 8571
+25	308698	2.8	1	298637 10061
+26	306449	2.8	1	295953 10496
+27	301983	2.8	1	291728 10255
+28	304545	2.8	1	293551 10994
+29	321155	2.8	1	308556 12599
+30	298281	2.8	1	290558 7723
+31	328140	2.8	1	315513 12627
+32	280340	2.8	1	273148 7192
+33	300461	2.8	1	289214 11247
+34	298645	2.8	1	287444 11201
+35	272448	2.8	1	264798 7650
+36	286090	2.8	1	275990 10100
+37	278670	2.8	1	269068 9602
+38	288950	2.8	1	278777 10173
+39	282972	2.8	1	272979 9993
+40	286666	2.8	1	277255 9411
+41	290798	2.8	1	280643 10155
+42	280192	2.8	1	269405 10787
+43	273726	2.8	1	264563 9163
+44	255832	2.8	1	246017 9815
+45	299409	2.8	1	281339 18070
+46	246221	2.8	1	236104 10117
+47	462687	2.8	1	447803 14884
+48	116544	2.8	1	111084 5460
+49	188128	2.8	1	179335 8793
+50	960730	2.8	1	942719 18011
+51	202652	2.8	1	194115 8537
+52	35629	2.8	1	32636 2993
+53	245122	2.8	1	239466 5656
+54	122403	2.8	1	118666 3737
+55	14475	2.8	1	12937 1538
+56	79547	2.8	1	76711 2836
+57	111104	2.8	1	108526 2578
+58	29869	2.8	1	28172 1697
+59	13544	2.8	1	12320 1224
+60	9076	2.8	1	8228 848
+61	50047	2.8	1	48596 1451
+62	4860	2.8	1	4203 657
+63	9376	2.8	1	8639 737
+64	47527	2.8	1	46379 1148
+65	9159	2.8	1	8395 764
+66	7313	2.8	1	6729 584
+67	24567	2.8	1	23659 908
+68	38169	2.8	1	37071 1098
+69	5962	2.8	1	5386 576
+70	14143	2.8	1	13444 699
+71	18545	2.8	1	17719 826
+72	21179	2.8	1	20309 870
+73	3242	2.8	1	2815 427
+74	1571	2.8	1	1302 269
+75	5230	2.8	1	4915 315
+76	10971	2.8	1	10588 383
+77	14479	2.8	1	14026 453
+78	15020	2.8	1	14497 523
+79	14196	2.8	1	13653 543
+80	13300	2.8	1	12828 472
+81	12104	2.8	1	11644 460
+82	11171	2.8	1	10747 424
+83	10168	2.8	1	9747 421
+84	9515	2.8	1	9098 417
+85	8418	2.8	1	8108 310
+86	7680	2.8	1	7391 289
+87	6735	2.8	1	6439 296
+88	6224	2.8	1	5916 308
+89	5423	2.8	1	5178 245
+90	5006	2.8	1	4766 240
+91	4448	2.8	1	4185 263
+92	3906	2.8	1	3683 223
+93	3833	2.8	1	3573 260
+94	3515	2.8	1	3236 279
+95	3402	2.8	1	3178 224
+96	3428	2.8	1	3142 286
+97	3027	2.8	1	2790 237
+98	2782	2.8	1	2580 202
+99	2547	2.8	1	2339 208
+100	2304	2.8	1	2062 242
+101	1921	2.8	1	1740 181
+102	1733	2.8	1	1488 245
+103	1635	2.8	1	1445 190
+104	1303	2.8	1	1141 162
+105	1361	2.8	1	1220 141
+106	1195	2.8	1	1048 147
+107	1101	2.8	1	938 163
+108	1004	2.8	1	860 144
+109	897	2.8	1	755 142
+110	857	2.8	1	693 164
+111	843	2.8	1	682 161
+112	625	2.8	1	467 158
+113	835	2.8	1	652 183
+114	644	2.8	1	442 202
+115	820	2.8	1	636 184
+116	1055	2.8	1	786 269
+117	448	2.8	1	313 135
+118	259	2.8	1	137 122
+119	328	2.8	1	152 176
+120	239	2.8	1	121 118
+121	190	2.8	1	101 89
+122	185	2.8	1	56 129
+123	285	2.8	1	101 184
+124	216	2.8	1	72 144
+125	160	2.8	1	51 109
+126	224	2.8	1	120 104
+127	141	2.8	1	25 116
+128	136	2.8	1	11 125
+129	122	2.8	1	25 97
+130	110	2.8	1	12 98
+131	90	2.8	1	7 83
+132	143	2.8	1	29 114
+133	159	2.8	1	16 143
+134	124	2.8	1	18 106
+135	112	2.8	1	19 93
+136	130	2.8	1	17 113
+137	226	2.8	1	25 201
+138	197	2.8	1	16 181
+139	154	2.8	1	31 123
+140	97	2.8	1	12 85
+141	142	2.8	1	15 127
+142	199	2.8	1	24 175
+143	119	2.8	1	15 104
+144	172	2.8	1	24 148
+145	127	2.8	1	18 109
+146	271	2.8	1	37 234
+147	216	2.8	1	45 171
+148	852	2.8	1	414 438
+149	61902	2.8	1	59779 2123
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R1.fastq.gz
+=============================================
+47401007 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Fathima/RNA2/02_trimmed_fastq/11_AC_A3_R2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j -j 1
+Writing final adapter and quality trimmed output to 11_AC_A3_R2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a CTGTCTCTTATA /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R2.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 2057.25 s (43 us/read; 1.38 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              47,401,007
+Reads with adapters:                27,926,044 (58.9%)
+Reads written (passing filters):    47,401,007 (100.0%)
+
+Total basepairs processed: 7,062,750,043 bp
+Quality-trimmed:              21,067,495 bp (0.3%)
+Total written (filtered):  6,529,611,801 bp (92.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 27926044 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 67.0%
+  C: 13.2%
+  G: 10.2%
+  T: 9.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8536119	11850251.8	0	8536119
+2	2341730	2962562.9	0	2341730
+3	1084762	740640.7	0	1084762
+4	454140	185160.2	0	454140
+5	340944	46290.0	0	340944
+6	300689	11572.5	0	300689
+7	304087	2893.1	0	304087
+8	297754	723.3	0	297754
+9	294837	180.8	0	293045 1792
+10	316185	45.2	1	301046 15139
+11	313272	11.3	1	299504 13768
+12	323314	2.8	1	307443 15871
+13	304465	2.8	1	292570 11895
+14	319240	2.8	1	304066 15174
+15	309288	2.8	1	295448 13840
+16	326980	2.8	1	309091 17889
+17	304047	2.8	1	292450 11597
+18	312224	2.8	1	299213 13011
+19	310478	2.8	1	298416 12062
+20	314918	2.8	1	302867 12051
+21	313555	2.8	1	300027 13528
+22	320928	2.8	1	307576 13352
+23	295245	2.8	1	283981 11264
+24	310878	2.8	1	296805 14073
+25	304652	2.8	1	292830 11822
+26	300974	2.8	1	289130 11844
+27	293713	2.8	1	282073 11640
+28	298631	2.8	1	284737 13894
+29	298299	2.8	1	286085 12214
+30	304052	2.8	1	292236 11816
+31	304752	2.8	1	291048 13704
+32	296769	2.8	1	283027 13742
+33	327596	2.8	1	313985 13611
+34	250710	2.8	1	237936 12774
+35	264493	2.8	1	254634 9859
+36	277378	2.8	1	266019 11359
+37	273264	2.8	1	260213 13051
+38	281621	2.8	1	269969 11652
+39	283382	2.8	1	271325 12057
+40	280802	2.8	1	268892 11910
+41	271094	2.8	1	260915 10179
+42	262108	2.8	1	251156 10952
+43	260918	2.8	1	250201 10717
+44	254312	2.8	1	244095 10217
+45	226851	2.8	1	219412 7439
+46	225852	2.8	1	216906 8946
+47	202240	2.8	1	194321 7919
+48	214468	2.8	1	205267 9201
+49	178418	2.8	1	171949 6469
+50	175368	2.8	1	168231 7137
+51	175802	2.8	1	168825 6977
+52	159230	2.8	1	153315 5915
+53	150248	2.8	1	144781 5467
+54	143306	2.8	1	137470 5836
+55	126405	2.8	1	121435 4970
+56	125074	2.8	1	119797 5277
+57	105815	2.8	1	102124 3691
+58	107650	2.8	1	103302 4348
+59	112095	2.8	1	107031 5064
+60	84486	2.8	1	81446 3040
+61	88787	2.8	1	85670 3117
+62	87434	2.8	1	83545 3889
+63	75531	2.8	1	72986 2545
+64	63944	2.8	1	61441 2503
+65	87684	2.8	1	83847 3837
+66	56591	2.8	1	54687 1904
+67	51899	2.8	1	50186 1713
+68	41894	2.8	1	40426 1468
+69	48101	2.8	1	46436 1665
+70	47613	2.8	1	45914 1699
+71	36438	2.8	1	35151 1287
+72	35504	2.8	1	34161 1343
+73	33224	2.8	1	32078 1146
+74	27986	2.8	1	26942 1044
+75	35869	2.8	1	34604 1265
+76	26416	2.8	1	25423 993
+77	25008	2.8	1	24152 856
+78	9798	2.8	1	9305 493
+79	8073	2.8	1	7686 387
+80	9720	2.8	1	9247 473
+81	9422	2.8	1	8927 495
+82	8790	2.8	1	8334 456
+83	8233	2.8	1	7818 415
+84	7797	2.8	1	7385 412
+85	7163	2.8	1	6741 422
+86	6428	2.8	1	6059 369
+87	5630	2.8	1	5289 341
+88	5220	2.8	1	4840 380
+89	4430	2.8	1	4115 315
+90	4086	2.8	1	3765 321
+91	3780	2.8	1	3464 316
+92	3528	2.8	1	3283 245
+93	3288	2.8	1	3000 288
+94	3167	2.8	1	2896 271
+95	3194	2.8	1	2921 273
+96	2864	2.8	1	2528 336
+97	2672	2.8	1	2340 332
+98	2455	2.8	1	2155 300
+99	2201	2.8	1	1970 231
+100	2081	2.8	1	1817 264
+101	1820	2.8	1	1641 179
+102	1673	2.8	1	1476 197
+103	1488	2.8	1	1252 236
+104	1207	2.8	1	1007 200
+105	1190	2.8	1	995 195
+106	1080	2.8	1	884 196
+107	990	2.8	1	820 170
+108	942	2.8	1	746 196
+109	884	2.8	1	730 154
+110	801	2.8	1	637 164
+111	805	2.8	1	623 182
+112	587	2.8	1	423 164
+113	717	2.8	1	571 146
+114	564	2.8	1	396 168
+115	759	2.8	1	621 138
+116	902	2.8	1	748 154
+117	426	2.8	1	290 136
+118	264	2.8	1	139 125
+119	261	2.8	1	144 117
+120	303	2.8	1	132 171
+121	203	2.8	1	90 113
+122	208	2.8	1	58 150
+123	251	2.8	1	104 147
+124	198	2.8	1	75 123
+125	164	2.8	1	50 114
+126	283	2.8	1	119 164
+127	192	2.8	1	28 164
+128	138	2.8	1	14 124
+129	133	2.8	1	22 111
+130	116	2.8	1	8 108
+131	183	2.8	1	12 171
+132	181	2.8	1	23 158
+133	150	2.8	1	16 134
+134	162	2.8	1	15 147
+135	135	2.8	1	21 114
+136	163	2.8	1	23 140
+137	187	2.8	1	46 141
+138	237	2.8	1	35 202
+139	176	2.8	1	41 135
+140	139	2.8	1	26 113
+141	144	2.8	1	40 104
+142	195	2.8	1	56 139
+143	125	2.8	1	48 77
+144	282	2.8	1	124 158
+145	195	2.8	1	115 80
+146	256	2.8	1	130 126
+147	230	2.8	1	138 92
+148	927	2.8	1	704 223
+149	55578	2.8	1	46668 8910
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Fathima/RNA2/00_fastq_aco/11_AC_A3_R2.fastq.gz
+=============================================
+47401007 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files 11_AC_A3_R1_trimmed.fq.gz and 11_AC_A3_R2_trimmed.fq.gz
+Now renaming the output files
+
+ORIGINAL FILE 1: >>11_AC_A3_R1_trimmed.fq.gz<<	RENAMING TO:>>11_AC_A3_R1_trimmed.fq.gz<<
+ORIGINAL FILE 2: >>11_AC_A3_R2_trimmed.fq.gz<<	RENAMING TO:>>11_AC_A3_R2_trimmed.fq.gz<<
+file_1: 11_AC_A3_R1_trimmed.fq.gz, file_2: 11_AC_A3_R2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: 11_AC_A3_R1_trimmed.fq.gz and 11_AC_A3_R2_trimmed.fq.gz <<<<<
+Writing validated paired-end read 1 reads to 11_AC_A3_R1_val_1.fq.gz
+Writing validated paired-end read 2 reads to 11_AC_A3_R2_val_2.fq.gz
+
+Total number of sequences analysed: 47401007
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 87518 (0.18%)
+
+Deleting both intermediate output files 11_AC_A3_R1_trimmed.fq.gz and 11_AC_A3_R2_trimmed.fq.gz
+
+====================================================================================================
+
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/24116806
+Started analysis of 11_AC_A3_R1_val_1.fq.gz
+Approx 5% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 10% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 15% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 20% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 25% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 30% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 35% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 40% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 45% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 50% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 55% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 60% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 65% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 70% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 75% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 80% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 85% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 90% complete for 11_AC_A3_R1_val_1.fq.gz
+Approx 95% complete for 11_AC_A3_R1_val_1.fq.gz
+Analysis complete for 11_AC_A3_R1_val_1.fq.gz
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/24116806
+Started analysis of 11_AC_A3_R2_val_2.fq.gz
+Approx 5% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 10% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 15% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 20% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 25% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 30% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 35% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 40% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 45% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 50% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 55% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 60% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 65% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 70% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 75% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 80% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 85% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 90% complete for 11_AC_A3_R2_val_2.fq.gz
+Approx 95% complete for 11_AC_A3_R2_val_2.fq.gz
+Analysis complete for 11_AC_A3_R2_val_2.fq.gz
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+47313489 reads; of these:
+  47313489 (100.00%) were paired; of these:
+    9906438 (20.94%) aligned concordantly 0 times
+    32055512 (67.75%) aligned concordantly exactly 1 time
+    5351539 (11.31%) aligned concordantly >1 times
+    ----
+    9906438 pairs aligned concordantly 0 times; of these:
+      5424011 (54.75%) aligned discordantly 1 time
+    ----
+    4482427 pairs aligned 0 times concordantly or discordantly; of these:
+      8964854 mates make up the pairs; of these:
+        4489141 (50.07%) aligned 0 times
+        3051719 (34.04%) aligned exactly 1 time
+        1423994 (15.88%) aligned >1 times
+95.26% overall alignment rate
+[bam_sort_core] merging from 43 files and 1 in-memory blocks...
+Wed Mar 27 21:36:40 EDT 2024

@@ -1,0 +1,127 @@
+{
+	"Cell cycle": [
+		"cytokinetic process",
+		"regulation of microtubule cytoskeleton organization",
+		"establishment of mitotic spindle localization",
+		"regulation of mitotic spindle organization",
+		"positive regulation of G1/S transition of mitotic cell cycle",
+		"positive regulation of cell cycle G1/S phase transition",
+		"regulation of G1/S transition of mitotic cell cycle",
+		"regulation of cell cycle G1/S phase transition",
+		"positive regulation of cell cycle checkpoint",
+		"regulation of organelle assembly",
+		"deoxyribonucleotide biosynthetic process"],
+	"Telomeres": [
+		"establishment of protein localization to telomere",
+		"negative regulation of telomere maintenance via telomerase",
+		"negative regulation of telomere maintenance via telomere lengthening"],
+	"Stress response": [
+		"cellular response to ionizing radiation",
+		"response to UV",
+		"response to hypoxia",
+		"nucleotide−excision repair",
+		"single strand break repair",
+		"regulation of DNA binding"],
+	"RNA splicing": [
+		"RNA 3'−end processing",
+		"regulation of RNA splicing",
+		"alternative mRNA splicing, via spliceosome",
+		"regulation of mRNA processing",
+		"regulation of mRNA metabolic process",
+		"regulation of mRNA splicing, via spliceosome"],
+	"Protein degradation": [
+		"regulation of endopeptidase activity",
+		"regulation of peptidase activity",
+		"positive regulation of protein ubiquitination",
+		"autophagy",
+		"macroautophagy",
+		"endocytosis",
+		"phagocytosis"],
+	"Immune response": [
+		"T cell proliferation",
+		"T−helper 17 type immune response",
+		"acute inflammatory response",
+		"cellular response to lipopolysaccharide",
+		"granulocyte migration",
+		"interleukin−17 production",
+		"interleukin-6 production",
+		"lymphocyte proliferation",
+		"myeloid cell activation involved in immune response",
+		"neutrophil chemotaxis",
+		"neutrophil migration",
+		"positive regulation of CD4−positive, alpha−beta T cell activation",
+		"positive regulation of T cell proliferation",
+		"positive regulation of secretion by cell",
+		"regulation of chemotaxis",
+		"regulation of leukocyte chemotaxis",
+		"regulation of leukocyte degranulation",
+		"regulation of macrophage chemotaxis",
+		"regulation of monocyte differentiation",
+		"response to interferon−beta"],
+	"Signaling": [
+		"ERK1 and ERK2 cascade",
+		"cytokine−mediated signaling pathway",
+		"inositol lipid−mediated signaling",
+		"integrin−mediated signaling pathway",
+		"phosphatidylinositol−mediated signaling",
+		"positive regulation of ERK1 and ERK2 cascade",
+		"positive regulation of MAPK cascade",
+		"positive regulation of phosphatidylinositol 3−kinase signaling",
+		"positive regulation of protein kinase B signaling",
+		"protein kinase B signaling",
+		"regulation of tyrosine phosphorylation of STAT protein",
+		"vascular endothelial growth factor receptor signaling pathway"],
+	"Apoptosis": [
+		"epithelial cell apoptotic process",
+		"regulation of epithelial cell apoptotic process",
+		"regulation of endothelial cell apoptotic process"],
+	"Tissue remodeling": [
+		"collagen metabolic process",
+		"blood vessel remodeling",
+		"actin cytoskeleton reorganization",
+		"keratinization",
+		"positive regulation of cell−matrix adhesion",
+		"tissue remodeling",
+		"stem cell population maintenance"],
+	"Metabolism": [
+		"amine metabolic process",
+		"carboxylic acid catabolic process",
+		"cellular aldehyde metabolic process",
+		"cellular metal ion homeostasis",
+		"lipid catabolic process",
+		"monocarboxylic acid transport",
+		"nitric oxide biosynthetic process",
+		"positive regulation of nitric oxide metabolic process",
+		"organic acid catabolic process",
+		"positive regulation of reactive oxygen species metabolic process",
+		"reactive nitrogen species metabolic process",
+		"regulation of alcohol biosynthetic process",
+		"regulation of calcium ion transport into cytosol"		]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

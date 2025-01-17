@@ -1,0 +1,239 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 28 BAM files                                     ||
+||                                                                            ||
+||                           100_24h_ASM11_Con_R1.bam                         ||
+||                           101_24h_ASM11_10Gy_R1.bam                        ||
+||                           10_12dASM10_CON_F_R1.bam                         ||
+||                           102_24h_ASM11_20Gy_R1.bam                        ||
+||                           11_12dASM10_10Gy_R1.bam                          ||
+||                           12_12dASM10_20Gy_R1.bam                          ||
+||                           13_ASM11_CON_P_R1.bam                            ||
+||                           14_12dASM11_CON_F_R1.bam                         ||
+||                           15_12dASM11_10Gy_R1.bam                          ||
+||                           16_12dASM11_20Gy_R1.bam                          ||
+||                           1_ASM8_CON_P_R1.bam                              ||
+||                           2_12dASM8_CON_F_R1.bam                           ||
+||                           3_12dASM8_10Gy_R1.bam                            ||
+||                           4_12dASM8_20Gy_R1.bam                            ||
+||                           5_ASM9_CON_P_R1.bam                              ||
+||                           6_12dASM9_CON_F_R1.bam                           ||
+||                           7_12dASM9_10Gy_R1.bam                            ||
+||                           8_12dASM9_20Gy_R1.bam                            ||
+||                           91_24h_ASM8_Con_R1.bam                           ||
+||                           92_24h_ASM8_10Gy_R1.bam                          ||
+||                           93_24h_ASM8_20Gy_R1.bam                          ||
+||                           94_24h_ASM9_Con_R1.bam                           ||
+||                           95_24h_ASM9_10Gy_R1.bam                          ||
+||                           96_24h_ASM9_20Gy_R1.bam                          ||
+||                           97_24h_ASM10_Con_R1.bam                          ||
+||                           98_24h_ASM10_10Gy_R1.bam                         ||
+||                           99_24h_ASM10_20Gy_R1.bam                         ||
+||                           9_ASM10_CON_P_R1.bam                             ||
+||                                                                            ||
+||             Output file : counts_aco                                       ||
+||                 Summary : counts_aco.summary                               ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : acahirinus.gtf (GTF)                             ||
+||      Dir for temp files : .                                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file acahirinus.gtf ...                                    ||
+||    Features : 1259124                                                      ||
+||    Meta-features : 19818                                                   ||
+||    Chromosomes/contigs : 23                                                ||
+||                                                                            ||
+|| Process BAM file 100_24h_ASM11_Con_R1.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 51540761                                             ||
+||    Successfully assigned alignments : 44156327 (85.7%)                     ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 101_24h_ASM11_10Gy_R1.bam...                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 46302479                                             ||
+||    Successfully assigned alignments : 39530663 (85.4%)                     ||
+||    Running time : 0.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 10_12dASM10_CON_F_R1.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33395274                                             ||
+||    Successfully assigned alignments : 28393526 (85.0%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 102_24h_ASM11_20Gy_R1.bam...                              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 61952218                                             ||
+||    Successfully assigned alignments : 52857478 (85.3%)                     ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 11_12dASM10_10Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 48936349                                             ||
+||    Successfully assigned alignments : 41825275 (85.5%)                     ||
+||    Running time : 0.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 12_12dASM10_20Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 43189323                                             ||
+||    Successfully assigned alignments : 35275666 (81.7%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 13_ASM11_CON_P_R1.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33090024                                             ||
+||    Successfully assigned alignments : 27593133 (83.4%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 14_12dASM11_CON_F_R1.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 41282051                                             ||
+||    Successfully assigned alignments : 34540763 (83.7%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 15_12dASM11_10Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 39116563                                             ||
+||    Successfully assigned alignments : 32690230 (83.6%)                     ||
+||    Running time : 0.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 16_12dASM11_20Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 42165584                                             ||
+||    Successfully assigned alignments : 34376850 (81.5%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 1_ASM8_CON_P_R1.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 30823244                                             ||
+||    Successfully assigned alignments : 25552727 (82.9%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 2_12dASM8_CON_F_R1.bam...                                 ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 34400966                                             ||
+||    Successfully assigned alignments : 29123115 (84.7%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 3_12dASM8_10Gy_R1.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33886525                                             ||
+||    Successfully assigned alignments : 28620471 (84.5%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 4_12dASM8_20Gy_R1.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 38314389                                             ||
+||    Successfully assigned alignments : 31679889 (82.7%)                     ||
+||    Running time : 0.15 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 5_ASM9_CON_P_R1.bam...                                    ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 34396229                                             ||
+||    Successfully assigned alignments : 28861678 (83.9%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 6_12dASM9_CON_F_R1.bam...                                 ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 40430526                                             ||
+||    Successfully assigned alignments : 34236350 (84.7%)                     ||
+||    Running time : 0.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 7_12dASM9_10Gy_R1.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 35504417                                             ||
+||    Successfully assigned alignments : 30262807 (85.2%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 8_12dASM9_20Gy_R1.bam...                                  ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 39404849                                             ||
+||    Successfully assigned alignments : 33259928 (84.4%)                     ||
+||    Running time : 0.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 91_24h_ASM8_Con_R1.bam...                                 ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 39173919                                             ||
+||    Successfully assigned alignments : 33430512 (85.3%)                     ||
+||    Running time : 0.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 92_24h_ASM8_10Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 37080613                                             ||
+||    Successfully assigned alignments : 31319435 (84.5%)                     ||
+||    Running time : 0.15 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 93_24h_ASM8_20Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 35241674                                             ||
+||    Successfully assigned alignments : 29688598 (84.2%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 94_24h_ASM9_Con_R1.bam...                                 ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33587120                                             ||
+||    Successfully assigned alignments : 28612709 (85.2%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 95_24h_ASM9_10Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 54082508                                             ||
+||    Successfully assigned alignments : 46244583 (85.5%)                     ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 96_24h_ASM9_20Gy_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 56782745                                             ||
+||    Successfully assigned alignments : 48319873 (85.1%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 97_24h_ASM10_Con_R1.bam...                                ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 46129944                                             ||
+||    Successfully assigned alignments : 39114911 (84.8%)                     ||
+||    Running time : 0.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 98_24h_ASM10_10Gy_R1.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 48985755                                             ||
+||    Successfully assigned alignments : 41460929 (84.6%)                     ||
+||    Running time : 0.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 99_24h_ASM10_20Gy_R1.bam...                               ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 55680767                                             ||
+||    Successfully assigned alignments : 47020384 (84.4%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 9_ASM10_CON_P_R1.bam...                                   ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 33633341                                             ||
+||    Successfully assigned alignments : 28348273 (84.3%)                     ||
+||    Running time : 0.13 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "./counts_aco.summary"    ||
+||                                                                            ||
+\\============================================================================//
+

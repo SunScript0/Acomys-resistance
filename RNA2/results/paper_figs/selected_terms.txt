@@ -1,0 +1,39 @@
+{
+	"Immune response": [
+		"response to interferon-beta",
+		"lymphocyte mediated immunity",
+		"response to interferon-gamma",
+		"interleukin-1 production",
+		"T cell migration",
+		"granulocyte activation",
+		"positive regulation of B cell proliferation"],
+	"Signaling": [
+		"receptor signaling pathway via JAK-STAT",
+		"positive regulation of peptidyl-tyrosine phosphorylation",
+		"positive regulation of ERK1 and ERK2 cascade",
+		"vascular endothelial growth factor production",
+		"protein kinase B signaling",
+		"integrin-mediated signaling pathway",
+		"Notch signaling pathway",
+		"canonical Wnt signaling pathway",
+		"BMP signaling pathway"],
+	"Cell death": [
+		"endothelial cell apoptotic process",
+		"necrotic cell death",
+		"cell killing",
+		"pyroptosis"],
+	"Tissue remodeling": [
+		"negative regulation of tissue remodeling",
+		"positive regulation of vasculature development",
+		"intermediate filament organization",
+		"epidermis morphogenesis",
+		"hair follicle development",
+		"animal organ formation"],
+	"Metabolism": [
+		"positive regulation of cytosolic calcium ion concentration",
+		"nitric oxide biosynthetic process",
+		"reactive nitrogen species metabolic process",
+		"vitamin D metabolic process",
+		"metal ion export",
+		"calcium-ion regulated exocytosis"]
+}

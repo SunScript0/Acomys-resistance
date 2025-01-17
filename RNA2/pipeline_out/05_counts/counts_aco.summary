@@ -1,0 +1,15 @@
+Status	./04_mapped/10_AC_A2.bam	./04_mapped/11_AC_A3.bam	./04_mapped/12_AC_A4.bam	./04_mapped/13_DT_A1.bam	./04_mapped/14_DT_A2.bam	./04_mapped/15_DT_A3.bam	./04_mapped/16_DT_A4.bam	./04_mapped/9_AC_A1.bam
+Assigned	25384861	28472213	21143918	22174740	28498572	27272843	21829796	30561256
+Unassigned_Unmapped	853993	1124945	649590	515206	758438	799808	628767	1206298
+Unassigned_Read_Type	0	0	0	0	0	0	0	0
+Unassigned_Singleton	2214283	2239251	1373792	1739184	2000690	2363140	1927957	2447221
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	8289076	5861838	4504077	6035717	7477735	7335196	5901469	5647594
+Unassigned_Secondary	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	8196624	8822767	6556832	6259533	7716186	7885608	7054015	8626040
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	667310	792475	565835	692270	890878	795218	732191	868573

@@ -1,0 +1,99 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.3
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 8 BAM files                                      ||
+||                                                                            ||
+||                           10_AC_A2.bam                                     ||
+||                           11_AC_A3.bam                                     ||
+||                           12_AC_A4.bam                                     ||
+||                           13_DT_A1.bam                                     ||
+||                           14_DT_A2.bam                                     ||
+||                           15_DT_A3.bam                                     ||
+||                           16_DT_A4.bam                                     ||
+||                           9_AC_A1.bam                                      ||
+||                                                                            ||
+||             Output file : counts_aco                                       ||
+||                 Summary : counts_aco.summary                               ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : acahirinus.gtf (GTF)                             ||
+||      Dir for temp files : .                                                ||
+||                                                                            ||
+||                 Threads : 5                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file acahirinus.gtf ...                                    ||
+||    Features : 1259124                                                      ||
+||    Meta-features : 19818                                                   ||
+||    Chromosomes/contigs : 23                                                ||
+||                                                                            ||
+|| Process BAM file 10_AC_A2.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 45606147                                             ||
+||    Successfully assigned alignments : 25384861 (55.7%)                     ||
+||    Running time : 1.30 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 11_AC_A3.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 47313489                                             ||
+||    Successfully assigned alignments : 28472213 (60.2%)                     ||
+||    Running time : 1.10 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 12_AC_A4.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 34794044                                             ||
+||    Successfully assigned alignments : 21143918 (60.8%)                     ||
+||    Running time : 0.76 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 13_DT_A1.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37416650                                             ||
+||    Successfully assigned alignments : 22174740 (59.3%)                     ||
+||    Running time : 0.91 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 14_DT_A2.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 47342499                                             ||
+||    Successfully assigned alignments : 28498572 (60.2%)                     ||
+||    Running time : 1.19 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 15_DT_A3.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 46451813                                             ||
+||    Successfully assigned alignments : 27272843 (58.7%)                     ||
+||    Running time : 1.18 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 16_DT_A4.bam...                                           ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38074195                                             ||
+||    Successfully assigned alignments : 21829796 (57.3%)                     ||
+||    Running time : 1.00 minutes                                             ||
+||                                                                            ||
+|| Process BAM file 9_AC_A1.bam...                                            ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 49356982                                             ||
+||    Successfully assigned alignments : 30561256 (61.9%)                     ||
+||    Running time : 1.10 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "./counts_aco.summary"    ||
+||                                                                            ||
+\\============================================================================//
+

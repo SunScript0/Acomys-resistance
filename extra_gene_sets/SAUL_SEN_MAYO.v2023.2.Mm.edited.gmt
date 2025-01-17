@@ -1,0 +1,10 @@
+SenMayo_All	SenMayo: All	Acvr1b	Ang	Angpt1	Angptl4	Areg	Axl	Bex3	Bmp2	Bmp6	C3	Ccl1	Ccl2	Ccl20	Ccl24	Ccl26	Ccl3	Ccl4	Ccl5	Ccl7	Ccl8	Cd55	Cd9	Csf1	Csf2	Csf2rb	Ctnnb1	Ctsb	Cxcl1	Cxcl10	Cxcl12	Cxcl16	Cxcl2	Cxcl3	Cxcr2	Dkk1	Edn1	Egf	Egfr	Ereg	Esm1	Ets2	Fas	Fgf1	Fgf2	Fgf7	Gdf15	Gem	Gmfg	Hgf	Hmgb1	Icam1	Icam5	Igf1	Igfbp1	Igfbp2	Igfbp3	Igfbp4	Igfbp5	Igfbp6	Igfbp7	Il10	Il13	Il15	Il18	Il1a	Il1b	Il2	Il6	Il6st	Il7	Inha	Iqgap2	Itga2	Itpka	Jun	Kitl	Lcp1	Mif	Mmp10	Mmp12	Mmp13	Mmp14	Mmp2	Mmp3	Mmp9	Nap1l4	Nrg1	Pappa	Pecam1	Pgf	Pigf	Plat	Plau	Plaur	Ptbp1	Ptger2	Ptges	Rps6ka5	Scamp4	Selplg	Sema3f	Serpinb3c	Serpine1	Serpine2	Spp1	Spx	Timp2	Tnf	Tnfrsf11b	Tnfrsf1a	Tnfrsf1b	Tubgcp2	Vegfa	Vegfc	Vgf	Wnt16	Wnt2
+SenMayo_MMP	SenMayo: MMP	Ctsb	Hgf	Mmp13	Mmp10	Mmp12	Mmp13	Mmp14	Mmp2	Mmp3	Mmp9	Pappa	Plat	Plau
+SenMayo_Cytokine	SenMayo: Cytokine	Ccl1	Ccl2	Ccl20	Ccl24	Ccl26	Ccl3	Ccl4	Ccl5	Ccl7	Ccl8	Csf1	Csf2	Cxcl1	Cxcl10	Cxcl12	Cxcl16	Cxcl2	Cxcl3	Cxcr2	Il10	Il13	Il15	Il18	Il1a	Il1b	Il2	Il6	Il7	Spp1	Tnf
+SenMayo_Growth_factor	SenMayo: Growth factor	Areg	Bmp2	Bmp6	Ereg	Fgf1	Fgf2	Fgf7	Gdf15	Igf1	Inha	Kitl	Nrg1	Pgf	Vegfa	Vegfc
+SenMayo_Intercellular_signal_molecule	SenMayo: Intercellular signal molecule	Angpt1	Angptl4	Dkk1	Edn1	Esm1	Gmfg	Sema3f	Spx	Vgf	Wnt16	Wnt2
+SenMayo_Miscellaneous	SenMayo: Miscellaneous	Ang	Bex3	Cd55	Gem	Icam1	Icam5	Igfbp7	Iqgap2	Lcp1	Nap1l4	Pecam1	Ptbp1	Scamp4	Tubgcp2
+SenMayo_Protease_Inhibitor	SenMayo: Protease Inhibitor	C3	Cst10	Igfbp1	Igfbp2	Igfbp3	Igfbp4	Igfbp5	Igfbp6	Serpinb3a	Serpine1	Serpine2
+SenMayo_Protein_modifying_enzyme	SenMayo: Protein modifying enzyme	Itpka	Mif	Pigf	Ptges	Rps6ka5
+SenMayo_Transcription_regulator	SenMayo: Transcription regulator	Ctnnb1	Ets2	Hmgb1	Jun
+SenMayo_Transmembrane_signal_receptor	SenMayo: Transmembrane signal receptor	Acvr1b	Axl	Cd9	Csf2rb	Egf	Egfr	Fas	Il6st	Itga2	Plaur	Ptger2	Selplg	Tnfrsf11b	Tnfrsf1a	Tnfrsf1b

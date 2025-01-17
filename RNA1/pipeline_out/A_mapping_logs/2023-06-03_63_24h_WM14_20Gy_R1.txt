@@ -1,0 +1,255 @@
+File: /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz
+Name: 63_24h_WM14_20Gy_R1
+Genome: /scratch/fmorandi/external/references/GRCm39-mm39-Ensembl/Hisat2_with_SJs/GRCm39
+Sat Jun  3 05:52:44 EDT 2023
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16968666
+FastQC v0.11.8
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16968666
+Started analysis of 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 5% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 10% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 15% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 20% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 25% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 30% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 35% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 40% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 45% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 50% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 55% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 60% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 65% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 70% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 75% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 80% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 85% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 90% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Approx 95% complete for 63_24h_WM14_20Gy_R1.fastq.gz
+Analysis complete for 63_24h_WM14_20Gy_R1.fastq.gz
+TrimGalore version:
+
+                        Quality-/Adapter-/RRBS-/Speciality-Trimming
+                                [powered by Cutadapt]
+                                  version 0.6.2
+
+                               Last update: 21 03 2019
+
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 2.3
+single-core operation.
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /gpfs/fs2/scratch/fmorandi/internal/Fathima/02_trimmed_fastq/
+Using user-specified basename (>>63_24h_WM14_20Gy_R1<<) instead of deriving the filename from the input file(s)
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	61779	AGATCGGAAGAGC	1000000	6.18
+smallRNA	6	TGGAATTCTCGG	1000000	0.00
+Nextera	1	CTGTCTCTTATA	1000000	0.00
+Using Illumina adapter for trimming (count: 61779). Second best hit was smallRNA (count: 6)
+
+Writing report to '/gpfs/fs2/scratch/fmorandi/internal/Fathima/02_trimmed_fastq/63_24h_WM14_20Gy_R1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.2
+Cutadapt version: 2.3
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 2.3). Setting -j 1
+Writing final adapter and quality trimmed output to 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+This is cutadapt 2.3 with Python 3.7.3
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+Finished in 1103.32 s (27 us/read; 2.26 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              41,561,489
+Reads with adapters:                17,998,652 (43.3%)
+Reads written (passing filters):    41,561,489 (100.0%)
+
+Total basepairs processed: 4,156,148,900 bp
+Quality-trimmed:               1,766,173 bp (0.0%)
+Total written (filtered):  4,053,540,960 bp (97.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 17998652 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 20.7%
+  C: 35.4%
+  G: 24.8%
+  T: 19.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8305797	10390372.2	0	8305797
+2	2923181	2597593.1	0	2923181
+3	1061894	649398.3	0	1061894
+4	479569	162349.6	0	479569
+5	371136	40587.4	0	371136
+6	326484	10146.8	0	326484
+7	309748	2536.7	0	309748
+8	294665	634.2	0	294665
+9	283444	158.5	0	282240 1204
+10	284569	39.6	1	257990 26579
+11	272001	9.9	1	245519 26482
+12	253523	2.5	1	230055 23468
+13	238506	0.6	1	215920 22586
+14	229989	0.6	1	207525 22464
+15	216410	0.6	1	196009 20401
+16	205072	0.6	1	184932 20140
+17	191866	0.6	1	173365 18501
+18	173264	0.6	1	157215 16049
+19	156994	0.6	1	141863 15131
+20	166908	0.6	1	151474 15434
+21	103655	0.6	1	93923 9732
+22	117005	0.6	1	106015 10990
+23	107318	0.6	1	97343 9975
+24	101402	0.6	1	91716 9686
+25	91357	0.6	1	82656 8701
+26	82785	0.6	1	75288 7497
+27	76789	0.6	1	69826 6963
+28	68900	0.6	1	62394 6506
+29	61720	0.6	1	55885 5835
+30	53176	0.6	1	48393 4783
+31	46525	0.6	1	42135 4390
+32	40726	0.6	1	37063 3663
+33	35428	0.6	1	32180 3248
+34	32805	0.6	1	29691 3114
+35	28138	0.6	1	25581 2557
+36	25937	0.6	1	23560 2377
+37	23208	0.6	1	21105 2103
+38	21874	0.6	1	19964 1910
+39	19542	0.6	1	17789 1753
+40	16744	0.6	1	15116 1628
+41	13835	0.6	1	12492 1343
+42	11888	0.6	1	10700 1188
+43	10281	0.6	1	9280 1001
+44	8441	0.6	1	7587 854
+45	12017	0.6	1	10926 1091
+46	1846	0.6	1	1623 223
+47	4703	0.6	1	4289 414
+48	5881	0.6	1	5371 510
+49	4327	0.6	1	3921 406
+50	3469	0.6	1	3113 356
+51	3568	0.6	1	3193 375
+52	2577	0.6	1	2250 327
+53	1800	0.6	1	1583 217
+54	1751	0.6	1	1546 205
+55	1754	0.6	1	1531 223
+56	1266	0.6	1	1098 168
+57	1243	0.6	1	1111 132
+58	797	0.6	1	665 132
+59	992	0.6	1	886 106
+60	578	0.6	1	482 96
+61	293	0.6	1	233 60
+62	591	0.6	1	485 106
+63	414	0.6	1	319 95
+64	205	0.6	1	136 69
+65	203	0.6	1	125 78
+66	327	0.6	1	249 78
+67	139	0.6	1	59 80
+68	196	0.6	1	133 63
+69	118	0.6	1	45 73
+70	75	0.6	1	17 58
+71	38	0.6	1	6 32
+72	80	0.6	1	11 69
+73	58	0.6	1	19 39
+74	74	0.6	1	16 58
+75	46	0.6	1	7 39
+76	74	0.6	1	8 66
+77	96	0.6	1	8 88
+78	85	0.6	1	3 82
+79	105	0.6	1	5 100
+80	73	0.6	1	7 66
+81	70	0.6	1	1 69
+82	37	0.6	1	4 33
+83	28	0.6	1	1 27
+84	55	0.6	1	1 54
+85	16	0.6	1	2 14
+86	71	0.6	1	7 64
+87	49	0.6	1	0 49
+88	26	0.6	1	3 23
+89	60	0.6	1	3 57
+90	33	0.6	1	0 33
+91	74	0.6	1	3 71
+92	64	0.6	1	4 60
+93	23	0.6	1	3 20
+94	81	0.6	1	0 81
+95	76	0.6	1	10 66
+96	26	0.6	1	3 23
+97	120	0.6	1	5 115
+98	45	0.6	1	0 45
+99	23	0.6	1	1 22
+100	1317	0.6	1	2 1315
+
+RUN STATISTICS FOR INPUT FILE: /scratch/fmorandi/internal/Fathima/00_fastq_musw/63_24h_WM14_20Gy_R1.fastq.gz
+=============================================
+41561489 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	2360 (0.0%)
+
+Now renaming the output file 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+
+ORIGINAL FILE 1: >>63_24h_WM14_20Gy_R1_trimmed.fq.gz<<	RENAMING TO:>>63_24h_WM14_20Gy_R1_trimmed.fq.gz<<
+Picked up _JAVA_OPTIONS: -Djava.io.tmpdir=/local_scratch/16968666
+Started analysis of 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 5% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 10% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 15% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 20% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 25% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 30% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 35% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 40% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 45% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 50% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 55% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 60% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 65% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 70% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 75% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 80% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 85% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 90% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Approx 95% complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Analysis complete for 63_24h_WM14_20Gy_R1_trimmed.fq.gz
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+41559129 reads; of these:
+  41559129 (100.00%) were unpaired; of these:
+    703410 (1.69%) aligned 0 times
+    37289850 (89.73%) aligned exactly 1 time
+    3565869 (8.58%) aligned >1 times
+98.31% overall alignment rate
+[bam_sort_core] merging from 15 files and 1 in-memory blocks...
+Sat Jun  3 06:40:46 EDT 2023

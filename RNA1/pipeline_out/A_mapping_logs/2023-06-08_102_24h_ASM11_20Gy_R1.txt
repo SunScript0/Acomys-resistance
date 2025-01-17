@@ -1,0 +1,13 @@
+File: /scratch/fmorandi/internal/Fathima/00_fastq_aco/102_24h_ASM11_20Gy_R1.fastq.gz
+Name: 102_24h_ASM11_20Gy_R1
+Genome: /scratch/fmorandi/external/references/AcoCah2/Hisat2_with_SJs/AcoCah
+Thu Jun  8 03:32:08 EDT 2023
+Hisat2  /software/hisat/2.1.0/hisat2-align-s version 2.1.0
+61952218 reads; of these:
+  61952218 (100.00%) were unpaired; of these:
+    823629 (1.33%) aligned 0 times
+    58067614 (93.73%) aligned exactly 1 time
+    3060975 (4.94%) aligned >1 times
+98.67% overall alignment rate
+[bam_sort_core] merging from 23 files and 1 in-memory blocks...
+Thu Jun  8 03:56:15 EDT 2023
